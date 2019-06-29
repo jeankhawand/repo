@@ -1,0 +1,33 @@
+Package: com.jeankhawand.NoVoiceMail
+Version: 1.0-1+debug
+Architecture: iphoneos-arm
+Maintainer: Jean Khawand <info@jeankhawand.tk>
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: ./debs/com.jeankhawand.NoVoiceMail_1.0-1+debug_iphoneos-arm.deb
+Size: 3572
+MD5sum: 2aa788f6f820cdeacc70adbc47868dc8
+SHA1: cf106d3e0a3d00056e39b6098ce2e05161c9e46d
+SHA256: faf777d84e629541b8d2009724e3973c1a02e62179854a497dc9150b59031341
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Jean Khawand <info@jeankhawand.tk>
+Name: NoVoiceMail
+
+Package: repo.jean.eu.org.cydown
+Version: 6.9.7
+Architecture: iphoneos-arm
+Maintainer: Jean Khawand <me@jean.eu.org>
+Depends: cydia, coreutils-bin, coreutils, apt7, firmware (<< 8.3) | ldid (>= 1:1.2.1), mobilesubstrate, preferenceloader
+Filename: ./debs/cydown.deb
+Size: 1084924
+MD5sum: 8919b2a505c8919dea815e42c26faba6
+SHA1: 062efafbeb0b993fe482836108d7cc3b0ed7806c
+SHA256: 0d32f019aa4bcdb4cadda786a85202bf34829694f3045756ca1137a13ef54bb1
+Section: iOS 12
+Description: Cydown 6.9.7
+Author: julioverne <julioverne@me.com>
+Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
+Name: CyDown
+Sponsor: Jean Khawand <https://jean.eu.org>
+
