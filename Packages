@@ -14,20 +14,52 @@ Description: An awesome MobileSubstrate tweak!
 Author: Jean Khawand <info@jeankhawand.tk>
 Name: NoVoiceMail
 
-Package: repo.jean.eu.org.cydown
-Version: 6.9.7
+Package: me.nepeta.relocate
+Version: 0.1.11
 Architecture: iphoneos-arm
-Maintainer: Jean Khawand <me@jean.eu.org>
-Depends: cydia, coreutils-bin, coreutils, apt7, firmware (<< 8.3) | ldid (>= 1:1.2.1), mobilesubstrate, preferenceloader
-Filename: ./debs/cydown.deb
-Size: 1084924
-MD5sum: 8919b2a505c8919dea815e42c26faba6
-SHA1: 062efafbeb0b993fe482836108d7cc3b0ed7806c
-SHA256: 0d32f019aa4bcdb4cadda786a85202bf34829694f3045756ca1137a13ef54bb1
-Section: iOS 12
-Description: Cydown 6.9.7
-Author: julioverne <julioverne@me.com>
-Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
-Name: CyDown
-Sponsor: Jean Khawand <https://jean.eu.org>
+Maintainer: Nepeta
+Installed-Size: 552
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), firmware (>= 11.0), applist, com.rpetrich.rocketbootstrap (>= 0.1.7)
+Filename: ./debs/me.nepeta.relocate_0.1.11_iphoneos-arm.deb
+Size: 94710
+MD5sum: 483ee6149e539ce31afffa59c8880528
+SHA1: 20514330acd718cf95b8ffb3816f6c1660f7fe65
+SHA256: ad5798646107102dfde09f29d83689703fffda0985472dfad2862663e8ec50df
+Section: Tweaks
+Description: Minimalist GPS spoofer (free)
+Author: Nepeta
+Name: Relocate
+
+Package: me.nepeta.relocateapp
+Version: 0.1.0
+Architecture: iphoneos-arm
+Maintainer: Nepeta
+Installed-Size: 404
+Depends: firmware (>= 9.0), me.nepeta.relocate
+Filename: ./debs/me.nepeta.relocateapp_0.1.0_iphoneos-arm.deb
+Size: 105064
+MD5sum: 03ac6ab9e03376078cfed3cae1f0b6b1
+SHA1: bf6b1b9dbd9d6daf7138805f4d1927de1a89803b
+SHA256: 40eb113b2176b10fb03aba49cbaaf09e296a3620a7c9ee2b665c116c8b03bbcf
+Section: Utilities
+Description: Application for Relocate
+Author: Nepeta
+Name: Relocate Application
+
+Package: me.nepeta.unsub
+Version: 0.1.9
+Architecture: iphoneos-arm
+Maintainer: Nepeta
+Installed-Size: 624
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), applist, firmware (>= 9.0)
+Conflicts: co.vexation.nosubstitute, com.opa334.nosubstitute12
+Filename: ./debs/me.nepeta.unsub_0.1.9_iphoneos-arm.deb
+Size: 41206
+MD5sum: 7231014fd36383bc396dea91412b004e
+SHA1: b2a6a5b4b0c94edb180b2f6514abee94c5059165
+SHA256: 8b351a1835d8d2a8b519c0d360695e4da4286c265066d43f0c46880a5bb9a3d6
+Section: Tweaks
+Description: Disable tweak injection (Substrate/Substitute) in certain apps.
+Author: Nepeta
+Name: UnSub
 
